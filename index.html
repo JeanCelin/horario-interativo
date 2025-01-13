@@ -4,18 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Horário Interativo</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body onload="carregar()">
     <header>
-      <h1>Título</h1>
+      <h1>Hora do Dia</h1>
     </header>
     <section>
-      <div></div>
-      <div></div>
+      <div id="msg"></div>
+      <div id="foto">
+        <img id="imagem" src="./images/manha-300w.jpg" alt="foto" />
+      </div>
     </section>
     <footer>
-      <p>&copy; 2025</p>
+      <p>&copy; Jean Celin</p>
     </footer>
     <script src="script.js"></script>
   </body>
